@@ -6,8 +6,11 @@ header {
 
 }
 
-article {
-    overflow: hidden;
+article.list {
+    section{
+        max-height: 300px;
+        overflow: hidden;
+    }
 }
 
 .user {
